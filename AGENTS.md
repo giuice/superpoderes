@@ -22,7 +22,7 @@ Meu irmão está no curso Empretec e precisa montar uma empresa rapidamente. A e
 
 | # | Nome | Conceito |
 |---|------|----------|
-| 1 | Dê Contexto | IA responde melhor quando sabe quem você é |
+| 1 | Dê Contexto | Dê contexto relevante — tudo que a IA precisa saber pra entregar o que você quer |
 | 2 | Seja Específico | Pedido vago = resposta vaga |
 | 3 | Itere | Explore, planeje e execute — na ordem |
 
