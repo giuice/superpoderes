@@ -50,8 +50,8 @@ Regras:
 
 **What to point out to the audience:**
 - Same task, completely different quality
-- The AI now knows WHO the business is, WHERE it is, WHO the customer is, and WHAT makes it special
-- This is the difference context makes — you go from generic to "this sounds like MY business"
+- The AI now has everything it needs to deliver what the business wants — identity, audience, goal, tone
+- This is what relevant context does — the AI goes from generic to delivering exactly what you need
 
 ### Bônus — O Atalho do Contexto
 
@@ -64,9 +64,9 @@ Meu objetivo é [seu objetivo]. Me faça perguntas até ter todas as informaçõ
 ```
 
 **O que dizer à plateia:**
-"Se você não sabe o que escrever de contexto, não precisa saber. Diz o objetivo e pede pra IA perguntar. Ela vai extrair de você os detalhes que importam."
+"Se você não sabe que contexto dar, não precisa saber. Diz o objetivo e pede pra IA perguntar. Ela vai extrair de você os detalhes que importam."
 
-**Por que funciona:** A IA não adivinha — ela pergunta. Você não precisa saber O QUE é relevante pra IA — ela sabe. O resultado é mais personalizado do que qualquer prompt fixo porque os dados vieram de uma conversa real sobre SEU caso.
+**Por que funciona:** A IA não adivinha — ela pergunta. Você não precisa saber que contexto é relevante — ela pergunta até ter tudo que precisa. O resultado é mais personalizado do que qualquer prompt fixo porque os dados vieram de uma conversa real sobre SEU caso.
 
 ---
 
@@ -209,7 +209,7 @@ pequeno e rápido de executar.
 | | Atalho do Contexto (SP1) | Atalho da Iteração (SP3) |
 |---|---|---|
 | Método | IA pergunta, você responde | IA pergunta, você responde |
-| Propósito | IA te ENTENDE (quem você é) | IA entende O PROBLEMA (o que é possível) |
+| Propósito | IA ENTENDE o que você precisa | IA entende O PROBLEMA (o que é possível) |
 | Resultado | Contexto completo | Quadro claro de possibilidades |
 | Depois | Você pede a tarefa | Você pede um plano |
 | 1 prompt | Sim | Não — 2 prompts (explore + planeje) |
