@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>T4 — Preview de Estilos</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Space+Grotesk:wght@400;500;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Michroma&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Inter', sans-serif; background: #1a1a1a; color: #fff; padding: 40px 20px; }
+  h1.page-title { text-align: center; font-family: 'Space Grotesk'; font-weight: 700; font-size: 28px; margin-bottom: 8px; }
+  p.page-sub { text-align: center; color: #888; margin-bottom: 40px; font-size: 14px; }
+  .style-section { margin-bottom: 80px; }
+  .style-header { display: flex; align-items: baseline; gap: 16px; margin-bottom: 20px; padding-bottom: 12px; border-bottom: 1px solid #333; }
+  .style-header h2 { font-family: 'Space Grotesk'; font-size: 22px; font-weight: 700; }
+  .style-header .tag { font-size: 12px; padding: 4px 10px; border-radius: 20px; background: #333; color: #ccc; }
+  .style-header .desc { color: #888; font-size: 14px; font-style: italic; }
+  .slides { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .slide { aspect-ratio: 16/9; border-radius: 8px; overflow: hidden; position: relative; box-shadow: 0 10px 40px rgba(0,0,0,0.5); }
+
+  /* ========================================
+     ESTILO A — CYBERPUNK NEON (ciano+magenta)
+     ======================================== */
+  .a-1, .a-2, .a-3 {
+    background: radial-gradient(ellipse at top right, #1a0b2e 0%, #0a0b14 60%);
+    color: #fff;
+    font-family: 'Space Grotesk', sans-serif;
+    padding: 8%;
+    position: relative;
+  }
+  .a-1::before, .a-2::before, .a-3::before {
+    content: ''; position: absolute; inset: 0;
+    background-image: linear-gradient(rgba(0,229,255,0.08) 1px, transparent 1px),
+                      linear-gradient(90deg, rgba(0,229,255,0.08) 1px, transparent 1px);
+    background-size: 30px 30px;
+    pointer-events: none;
+  }
+  .a-1 .eyebrow { font-family: 'JetBrains Mono'; font-size: 9px; letter-spacing: 3px; color: #00E5FF; text-transform: uppercase; margin-bottom: 16px; position: relative; z-index: 1; }
+  .a-1 .title { font-family: 'Orbitron'; font-weight: 900; font-size: 26px; line-height: 1.05; margin-bottom: 10px; position: relative; z-index: 1; text-shadow: 0 0 20px rgba(0,229,255,0.5); }
+  .a-1 .title .accent { color: #FF2E88; }
+  .a-1 .sub { font-size: 11px; color: #aaa; margin-bottom: 30px; position: relative; z-index: 1; }
+  .a-1 .footer { position: absolute; bottom: 8%; left: 8%; right: 8%; display: flex; justify-content: space-between; font-family: 'JetBrains Mono'; font-size: 8px; color: #555; z-index: 1; }
+  .a-1 .glow { position: absolute; width: 200px; height: 200px; right: -50px; bottom: -50px; background: radial-gradient(circle, #FF2E88 0%, transparent 70%); opacity: 0.4; filter: blur(20px); }
+
+  .a-2 { display: flex; flex-direction: column; }
+  .a-2 .section-num { font-family: 'JetBrains Mono'; font-size: 9px; color: #00E5FF; letter-spacing: 2px; margin-bottom: 6px; position: relative; z-index: 1; }
+  .a-2 .section-title { font-family: 'Orbitron'; font-weight: 700; font-size: 16px; margin-bottom: 18px; position: relative; z-index: 1; }
+  .a-2 .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; position: relative; z-index: 1; flex: 1; }
+  .a-2 .card { border: 1px solid rgba(0,229,255,0.3); padding: 12px; border-radius: 4px; position: relative; background: rgba(0,229,255,0.03); }
+  .a-2 .card .num { font-family: 'Orbitron'; font-weight: 900; font-size: 24px; color: #00E5FF; text-shadow: 0 0 15px rgba(0,229,255,0.6); }
+  .a-2 .card:nth-child(2) .num { color: #FF2E88; text-shadow: 0 0 15px rgba(255,46,136,0.6); }
+  .a-2 .card:nth-child(3) .num { color: #B794FF; text-shadow: 0 0 15px rgba(183,148,255,0.6); }
+  .a-2 .card .name { font-family: 'Orbitron'; font-weight: 700; font-size: 10px; margin: 6px 0 4px; }
+  .a-2 .card .desc { font-size: 8px; color: #aaa; line-height: 1.4; }
+
+  .a-3 { display: flex; flex-direction: column; justify-content: center; }
+  .a-3 .shortcut-label { font-family: 'JetBrains Mono'; font-size: 9px; color: #00E5FF; letter-spacing: 3px; text-align: center; margin-bottom: 8px; position: relative; z-index: 1; }
+  .a-3 .shortcut-title { font-family: 'Orbitron'; font-weight: 900; font-size: 18px; text-align: center; margin-bottom: 20px; position: relative; z-index: 1; }
+  .a-3 .terminal { background: rgba(0,0,0,0.6); border: 1px solid #00E5FF; border-radius: 4px; padding: 14px; font-family: 'JetBrains Mono'; font-size: 9px; line-height: 1.6; color: #00E5FF; box-shadow: 0 0 30px rgba(0,229,255,0.3), inset 0 0 20px rgba(0,229,255,0.05); position: relative; z-index: 1; }
+  .a-3 .terminal .prompt { color: #FF2E88; }
+  .a-3 .subtext { text-align: center; font-size: 9px; color: #888; margin-top: 14px; font-style: italic; position: relative; z-index: 1; }
+
+  /* ========================================
+     ESTILO B — SCI-FI CLEAN (Apple/Tesla)
+     ======================================== */
+  .b-1, .b-2, .b-3 {
+    background: linear-gradient(180deg, #0b0f1a 0%, #0a1530 100%);
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    padding: 8%;
+    position: relative;
+  }
+  .b-1 .ticker { font-family: 'JetBrains Mono'; font-size: 9px; letter-spacing: 2px; color: #6B8CFF; text-transform: uppercase; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
+  .b-1 .ticker::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: #6B8CFF; box-shadow: 0 0 10px #6B8CFF; }
+  .b-1 .title { font-family: 'Space Grotesk'; font-weight: 500; font-size: 30px; line-height: 1.05; letter-spacing: -1px; margin-bottom: 8px; }
+  .b-1 .title strong { font-weight: 700; background: linear-gradient(90deg, #6B8CFF, #A8C0FF); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+  .b-1 .sub { font-size: 12px; color: #8A9BB8; font-weight: 300; margin-bottom: 30px; }
+  .b-1 .footer { position: absolute; bottom: 8%; left: 8%; right: 8%; display: flex; justify-content: space-between; font-family: 'JetBrains Mono'; font-size: 8px; color: #4A5878; text-transform: uppercase; letter-spacing: 1px; }
+  .b-1 .orb { position: absolute; width: 140px; height: 140px; right: 8%; top: 50%; transform: translateY(-50%); border-radius: 50%; background: radial-gradient(circle at 30% 30%, #6B8CFF 0%, #1a2a55 50%, transparent 80%); opacity: 0.6; filter: blur(1px); }
+
+  .b-2 { display: flex; flex-direction: column; }
+  .b-2 .section-num { font-family: 'JetBrains Mono'; font-size: 9px; color: #6B8CFF; letter-spacing: 2px; margin-bottom: 6px; }
+  .b-2 .section-title { font-family: 'Space Grotesk'; font-weight: 500; font-size: 18px; letter-spacing: -0.5px; margin-bottom: 20px; }
+  .b-2 .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; flex: 1; }
+  .b-2 .card { background: linear-gradient(180deg, rgba(107,140,255,0.08) 0%, rgba(107,140,255,0.02) 100%); border: 1px solid rgba(107,140,255,0.2); padding: 14px; border-radius: 8px; backdrop-filter: blur(10px); }
+  .b-2 .card .num { font-family: 'Space Grotesk'; font-weight: 300; font-size: 32px; color: #6B8CFF; letter-spacing: -2px; line-height: 1; }
+  .b-2 .card .name { font-family: 'Space Grotesk'; font-weight: 600; font-size: 11px; margin: 8px 0 4px; letter-spacing: -0.3px; }
+  .b-2 .card .desc { font-size: 8px; color: #8A9BB8; line-height: 1.5; font-weight: 300; }
+
+  .b-3 { display: flex; flex-direction: column; justify-content: center; }
+  .b-3 .shortcut-label { font-family: 'JetBrains Mono'; font-size: 9px; color: #6B8CFF; letter-spacing: 3px; text-align: center; margin-bottom: 10px; }
+  .b-3 .shortcut-title { font-family: 'Space Grotesk'; font-weight: 500; font-size: 22px; letter-spacing: -0.5px; text-align: center; margin-bottom: 22px; }
+  .b-3 .terminal { background: rgba(107,140,255,0.05); border: 1px solid rgba(107,140,255,0.25); border-radius: 10px; padding: 16px; font-family: 'JetBrains Mono'; font-size: 9px; line-height: 1.7; color: #D0DCFF; backdrop-filter: blur(10px); }
+  .b-3 .subtext { text-align: center; font-size: 9px; color: #6B8CFF; margin-top: 14px; font-weight: 300; font-style: italic; }
+
+  /* ========================================
+     ESTILO C — RETROFUTURISTA (synthwave)
+     ======================================== */
+  .c-1, .c-2, .c-3 {
+    background: linear-gradient(180deg, #1a0d2e 0%, #2d1b4e 50%, #6B1E5C 100%);
+    color: #fff;
+    font-family: 'Michroma', sans-serif;
+    padding: 8%;
+    position: relative;
+    overflow: hidden;
+  }
+  .c-1::before, .c-2::before, .c-3::before {
+    content: ''; position: absolute; left: 0; right: 0; bottom: 0; height: 50%;
+    background-image: linear-gradient(rgba(255,100,200,0.3) 1px, transparent 1px),
+                      linear-gradient(90deg, rgba(255,100,200,0.3) 1px, transparent 1px);
+    background-size: 40px 40px;
+    transform: perspective(400px) rotateX(60deg);
+    transform-origin: bottom;
+    pointer-events: none;
+  }
+  .c-1::after {
+    content: ''; position: absolute; top: 20%; right: 10%;
+    width: 120px; height: 120px; border-radius: 50%;
+    background: linear-gradient(180deg, #FFD700 0%, #FF6B9D 60%, #C724B1 100%);
+    box-shadow: 0 0 60px rgba(255,107,157,0.6);
+  }
+  .c-1 .eyebrow { font-family: 'JetBrains Mono'; font-size: 9px; letter-spacing: 3px; color: #FFD700; margin-bottom: 16px; position: relative; z-index: 2; }
+  .c-1 .title { font-family: 'Michroma'; font-size: 18px; line-height: 1.3; margin-bottom: 12px; position: relative; z-index: 2; text-shadow: 2px 2px 0 #C724B1, -1px -1px 0 #00E5FF; }
+  .c-1 .sub { font-family: 'Space Grotesk'; font-size: 11px; color: #FFD7F0; margin-bottom: 30px; position: relative; z-index: 2; }
+  .c-1 .footer { position: absolute; bottom: 8%; left: 8%; font-family: 'JetBrains Mono'; font-size: 8px; color: #FFD700; z-index: 2; letter-spacing: 2px; }
+
+  .c-2 { display: flex; flex-direction: column; }
+  .c-2 .section-num { font-family: 'JetBrains Mono'; font-size: 9px; color: #FFD700; letter-spacing: 2px; margin-bottom: 6px; position: relative; z-index: 2; }
+  .c-2 .section-title { font-family: 'Michroma'; font-size: 14px; margin-bottom: 20px; position: relative; z-index: 2; text-shadow: 1px 1px 0 #C724B1; }
+  .c-2 .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; position: relative; z-index: 2; flex: 1; }
+  .c-2 .card { background: linear-gradient(180deg, rgba(199,36,177,0.3), rgba(26,13,46,0.6)); border: 1px solid #FF6B9D; padding: 12px; border-radius: 2px; box-shadow: 0 0 15px rgba(255,107,157,0.3); }
+  .c-2 .card .num { font-family: 'Michroma'; font-size: 22px; color: #FFD700; text-shadow: 2px 2px 0 #C724B1; }
+  .c-2 .card .name { font-family: 'Michroma'; font-size: 9px; margin: 8px 0 4px; color: #fff; }
+  .c-2 .card .desc { font-family: 'Space Grotesk'; font-size: 8px; color: #FFD7F0; line-height: 1.4; }
+
+  .c-3 { display: flex; flex-direction: column; justify-content: center; }
+  .c-3 .shortcut-label { font-family: 'JetBrains Mono'; font-size: 9px; color: #FFD700; letter-spacing: 3px; text-align: center; margin-bottom: 8px; position: relative; z-index: 2; }
+  .c-3 .shortcut-title { font-family: 'Michroma'; font-size: 16px; text-align: center; margin-bottom: 20px; position: relative; z-index: 2; text-shadow: 2px 2px 0 #C724B1, -1px -1px 0 #00E5FF; }
+  .c-3 .terminal { background: rgba(0,0,0,0.5); border: 2px solid #FF6B9D; border-radius: 2px; padding: 14px; font-family: 'JetBrains Mono'; font-size: 9px; line-height: 1.6; color: #FFD7F0; box-shadow: 0 0 20px rgba(255,107,157,0.4); position: relative; z-index: 2; }
+  .c-3 .subtext { font-family: 'Space Grotesk'; text-align: center; font-size: 9px; color: #FFD700; margin-top: 14px; font-style: italic; position: relative; z-index: 2; }
+
+  .vote { text-align: center; margin-top: 30px; color: #666; font-size: 12px; }
+</style>
+</head>
+<body>
+
+<h1 class="page-title">T4 — Preview de Estilos</h1>
+<p class="page-sub">3 direções visuais · cada linha: Capa · 3 Superpoderes · Atalho do Contexto</p>
+
+<!-- =========== ESTILO A =========== -->
+<div class="style-section">
+  <div class="style-header">
+    <h2>Estilo A</h2>
+    <span class="tag">Cyberpunk Neon</span>
+    <span class="desc">agressivo, vibrante, ciano + magenta, grid digital</span>
+  </div>
+  <div class="slides">
+    <div class="slide a-1">
+      <div class="glow"></div>
+      <div class="eyebrow">// MENTES EM AÇÃO · WORKSHOP 2026</div>
+      <div class="title">APRENDENDO<br>O BÁSICO PRA<br>LIDAR COM <span class="accent">IA</span></div>
+      <div class="sub">técnicas simples e claras para se lidar com IA</div>
+      <div class="footer"><span>GIULIANO LEMES</span><span>60 MIN</span></div>
+    </div>
+    <div class="slide a-2">
+      <div class="section-num">// FRAMEWORK</div>
+      <div class="section-title">OS 3 SUPERPODERES</div>
+      <div class="cards">
+        <div class="card"><div class="num">01</div><div class="name">DÊ CONTEXTO</div><div class="desc">tudo que a IA precisa pra entregar o que você quer</div></div>
+        <div class="card"><div class="num">02</div><div class="name">SEJA ESPECÍFICO</div><div class="desc">pedido vago = resposta vaga</div></div>
+        <div class="card"><div class="num">03</div><div class="name">ITERE</div><div class="desc">explore · planeje · execute</div></div>
+      </div>
+    </div>
+    <div class="slide a-3">
+      <div class="shortcut-label">// SHORTCUT_01</div>
+      <div class="shortcut-title">O ATALHO DO CONTEXTO</div>
+      <div class="terminal"><span class="prompt">&gt;</span> Meu objetivo é [seu objetivo].<br>&nbsp;&nbsp;&nbsp;Me faça perguntas até ter todas<br>&nbsp;&nbsp;&nbsp;as informações necessárias pra<br>&nbsp;&nbsp;&nbsp;fazer o melhor trabalho possível.</div>
+      <div class="subtext">Não sabe que contexto dar? Deixe a IA perguntar.</div>
+    </div>
+  </div>
+</div>
+
+<!-- =========== ESTILO B =========== -->
+<div class="style-section">
+  <div class="style-header">
+    <h2>Estilo B</h2>
+    <span class="tag">Sci-Fi Clean</span>
+    <span class="desc">sóbrio, tipo Apple/Tesla, azul profundo, vidro/blur</span>
+  </div>
+  <div class="slides">
+    <div class="slide b-1">
+      <div class="orb"></div>
+      <div class="ticker">MENTES EM AÇÃO · WORKSHOP</div>
+      <div class="title">Aprendendo o básico<br>pra lidar com <strong>IA</strong></div>
+      <div class="sub">técnicas simples e claras para se lidar com IA</div>
+      <div class="footer"><span>Giuliano Lemes</span><span>60 min</span></div>
+    </div>
+    <div class="slide b-2">
+      <div class="section-num">FRAMEWORK · 01</div>
+      <div class="section-title">Os 3 Superpoderes</div>
+      <div class="cards">
+        <div class="card"><div class="num">01</div><div class="name">Dê Contexto</div><div class="desc">tudo que a IA precisa pra entregar o que você quer</div></div>
+        <div class="card"><div class="num">02</div><div class="name">Seja Específico</div><div class="desc">pedido vago = resposta vaga</div></div>
+        <div class="card"><div class="num">03</div><div class="name">Itere</div><div class="desc">explore · planeje · execute</div></div>
+      </div>
+    </div>
+    <div class="slide b-3">
+      <div class="shortcut-label">SHORTCUT · 01</div>
+      <div class="shortcut-title">O Atalho do Contexto</div>
+      <div class="terminal">Meu objetivo é [seu objetivo].<br>Me faça perguntas até ter todas as<br>informações necessárias pra fazer o<br>melhor trabalho possível.</div>
+      <div class="subtext">Não sabe que contexto dar? Deixe a IA perguntar.</div>
+    </div>
+  </div>
+</div>
+
+<!-- =========== ESTILO C =========== -->
+<div class="style-section">
+  <div class="style-header">
+    <h2>Estilo C</h2>
+    <span class="tag">Retrofuturista / Synthwave</span>
+    <span class="desc">nostálgico anos 80, roxo+rosa+ouro, grid perspectiva</span>
+  </div>
+  <div class="slides">
+    <div class="slide c-1">
+      <div class="eyebrow">MENTES EM AÇÃO</div>
+      <div class="title">APRENDENDO<br>O BÁSICO<br>PRA LIDAR<br>COM IA</div>
+      <div class="sub">técnicas simples e claras</div>
+      <div class="footer">GIULIANO LEMES</div>
+    </div>
+    <div class="slide c-2">
+      <div class="section-num">// FRAMEWORK</div>
+      <div class="section-title">OS 3 SUPERPODERES</div>
+      <div class="cards">
+        <div class="card"><div class="num">01</div><div class="name">DÊ CONTEXTO</div><div class="desc">tudo que a IA precisa pra entregar o que você quer</div></div>
+        <div class="card"><div class="num">02</div><div class="name">SEJA ESPECÍFICO</div><div class="desc">pedido vago = resposta vaga</div></div>
+        <div class="card"><div class="num">03</div><div class="name">ITERE</div><div class="desc">explore · planeje · execute</div></div>
+      </div>
+    </div>
+    <div class="slide c-3">
+      <div class="shortcut-label">// SHORTCUT 01</div>
+      <div class="shortcut-title">O ATALHO DO CONTEXTO</div>
+      <div class="terminal">&gt; Meu objetivo é [seu objetivo].<br>&nbsp;&nbsp;Me faça perguntas até ter todas<br>&nbsp;&nbsp;as informações necessárias pra<br>&nbsp;&nbsp;fazer o melhor trabalho possível.</div>
+      <div class="subtext">Não sabe que contexto dar? Deixe a IA perguntar.</div>
+    </div>
+  </div>
+</div>
+
+<p class="vote">Escolha: A · B · C — ou misture (ex.: "B mas com cor de A")</p>
+
+</body>
+</html>
