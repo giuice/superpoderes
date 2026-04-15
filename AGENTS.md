@@ -18,6 +18,8 @@ Meu irmão está no curso Empretec e precisa montar uma empresa rapidamente. A e
 
 **Formato:** presencial, cerca de 1 hora, público externo misto, iniciante, possivelmente sem experiência prévia com IA.
 
+**Formato da apresentação:** HTML com Reveal.js, estilo synthwave/retrofuturista. Hospedado no GitHub Pages. Acessível via URL, compartilhável com participantes após o workshop.
+
 **Estrutura:** Workshop dos 3 Superpoderes
 
 | # | Nome | Conceito |
@@ -49,7 +51,7 @@ Meu irmão está no curso Empretec e precisa montar uma empresa rapidamente. A e
 
 | ID | Entregável | Formato | Status |
 |----|------------|---------|--------|
-| E1 | Slide deck | .pptx | Pendente (T3/T4) |
+| E1 | Apresentação | HTML (Reveal.js) | ✅ Concluído (T4) |
 | E2 | Roteiro do apresentador | .md | ✅ Concluído (T1) |
 | E3 | Scripts de demo | .md | ✅ Concluído (T2) |
 | E1a | Esqueleto do deck | .md | ✅ Concluído (T3) |
@@ -66,7 +68,7 @@ Meu irmão está no curso Empretec e precisa montar uma empresa rapidamente. A e
 
 ### Dia 2 — Terça
 
-- T4 – Deck final (design)
+- T4 – Apresentação HTML synthwave ✅
 - T5 – Rodar demos ao vivo + capturar screenshots
 - T6 – Inserir backup no deck
 
