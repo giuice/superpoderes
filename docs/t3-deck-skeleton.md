@@ -106,7 +106,7 @@ Este documento organiza a apresentação em slides para o T4. A ideia é que cad
 **Objetivo:** apresentar a espinha dorsal do workshop.
 
 **Na tela:**
-- 1. Dê Contexto — *a IA não te conhece; conte quem você é e o que quer*
+- 1. Dê Contexto — *dê contexto relevante — tudo que a IA precisa saber pra entregar o que você quer*
 - 2. Seja Específico — *quanto mais claro o pedido, mais útil a resposta*
 - 3. Itere — *explore possibilidades, planeje em passos, execute um por um*
 
@@ -125,9 +125,9 @@ Este documento organiza a apresentação em slides para o T4. A ideia é que cad
 **Objetivo:** introduzir a primeira técnica.
 
 **Na tela:**
-- A IA não sabe quem você é.
-- Quanto mais contexto relevante, melhor a resposta.
-- Diga: quem você é, o que faz, e para quê precisa da resposta.
+- A IA não sabe nada sobre você.
+- O que faz a resposta melhor é dar contexto relevante — tudo que a IA precisa saber pra entregar o que você quer.
+- Isso pode incluir quem você é, pra que vai usar, qual resultado espera.
 
 **Fala-base:**
 - Usar a analogia do consultor ou do garçom.
@@ -169,10 +169,10 @@ Este documento organiza a apresentação em slides para o T4. A ideia é que cad
   todas as informações necessárias pra fazer o melhor
   trabalho possível.
   ```
-- Subtexto: "Não sabe o que escrever? Deixe a IA perguntar."
+- Subtexto: "Não sabe que contexto dar? Deixe a IA perguntar."
 
 **Fala-base:**
-- Se você não sabe O QUE escrever de contexto, não precisa saber.
+- Se você não sabe que contexto dar, não precisa saber.
 - Diz o objetivo e pede pra IA fazer perguntas.
 - Os detalhes vêm de você, não de um template.
 
@@ -298,7 +298,7 @@ Este documento organiza a apresentação em slides para o T4. A ideia é que cad
 - Itere
 
 **Apoio curto:**
-- contexto tira o genérico
+- contexto relevante tira o genérico
 - especificidade aproxima do que você precisa
 - iteração = explorar, planejar, executar (na ordem)
 
