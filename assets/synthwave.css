@@ -20,10 +20,7 @@
   background: linear-gradient(180deg, var(--bg-top) 0%, var(--bg-mid) 50%, var(--bg-bottom) 100%);
   color: var(--text-strong);
   padding: 6% 8%;
-  height: 100%;
   box-sizing: border-box;
-  position: relative;
-  overflow: hidden;
 }
 
 /* Grid perspectiva synthwave — aparece em todos slides */
