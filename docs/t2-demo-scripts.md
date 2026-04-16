@@ -14,43 +14,38 @@
 ### Prompt A — Sem Contexto
 
 ```
-Crie um post pra Instagram.
+Crie um post de Instagram para o Empório Princesa, em Campanha, MG.
 ```
 
-**Expected result:** Texto genérico, que poderia servir para qualquer loja. Provavelmente vai usar frases vagas como "venha nos visitar" ou "temos qualidade e bom atendimento", sem mostrar o que torna o lugar especial.
+**Expected result:** Texto genérico sobre "um empório" — a IA não sabe o que torna o Empório especial, quem é o público, qual é o clima do lugar. Provavelmente vai usar frases vagas como "venha nos visitar" ou "temos qualidade e bom atendimento".
 
 **What to point out to the audience:**
-- The AI doesn't know what makes THIS business special
-- It doesn't know the city, the vibe, or who the clients are
-- Without context, the AI has to guess everything
+- The AI knows the business name and city, but not what makes it special
+- It doesn't know the vibe, the audience, or the personality of the place
+- Without context, the AI can only produce something generic about "an emporium"
 
 ---
 
 ### Prompt B — Com Contexto
 
 ```
-Você é um especialista em marketing para pequenos negócios de cidade pequena.
+Você é um especialista em marketing para negócios locais. O Empório
+Princesa, em Campanha, MG, é um espaço que mistura empório, cafeteria,
+bistrô e experiências gastronômicas. Trabalhamos com vinhos, cervejas
+artesanais, queijos, cafés especiais, lanches e eventos.
 
-Eu sou dono do Empório Princesa, em Campanha, MG. O Empório Princesa é um lugar diferenciado: mistura empório, bistrô, cafeteria e experiências gastronômicas. Trabalhamos com produtos de qualidade, vinhos, cervejas artesanais, queijos, cafés, lanches e também fazemos eventos especiais e pratos por encomenda.
+Meu público valoriza qualidade, bom gosto e experiências mais exclusivas.
 
-Meu público é formado por pessoas que gostam de comer e beber bem, valorizam qualidade e gostam de experiências mais exclusivas.
-
-Crie um post de Instagram convidando as pessoas para conhecerem o Empório Princesa neste fim de semana.
-
-Regras:
-- texto principal com no máximo 7 linhas
-- tom elegante, acolhedor e sem exagero
-- destacar a experiência do lugar, não só os produtos
-- mencionar Campanha, MG de forma natural
-- terminar com um convite simples para visitar ou reservar
-- não usar clichês como "imperdível" ou "você não pode perder"
+Crie um post para o Instagram convidando clientes para conhecerem o
+espaço neste fim de semana. O tom deve ser elegante, acolhedor e sem
+parecer propaganda forçada.
 ```
 
-**Expected result:** Texto com cara de negócio real, mencionando Campanha ou o clima de cidade pequena, destacando o diferencial do espaço, a curadoria de produtos e a experiência de sentar para tomar um vinho, uma cerveja artesanal ou comer algo especial. Muito mais específico e aproveitável.
+**Expected result:** Texto com cara de negócio real, mencionando Campanha ou o clima de cidade pequena, destacando o diferencial do espaço, a curadoria de produtos e a experiência de sentar para tomar um vinho, uma cerveja artesnal ou comer algo especial. Muito mais específico e aproveitável.
 
 **What to point out to the audience:**
 - Same task, completely different quality
-- The AI now has everything it needs to deliver what the business wants — identity, audience, goal, tone
+- The prompt now tells the AI: who the business is, who the audience is, what the vibe is
 - This is what relevant context does — the AI goes from generic to delivering exactly what you need
 
 ### Bônus — O Atalho do Contexto
