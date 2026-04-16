@@ -354,6 +354,25 @@ Este documento organiza a apresentação em slides para o T4. A ideia é que cad
 
 ---
 
+## Slide 14b — Bônus: Skill Explorar → Planejar → Executar
+
+**Eyebrow:** `// BÔNUS · LEVE PRA CASA`
+
+**Título:** Skill: Explorar → Planejar → Executar
+
+**Subtítulo:** 3 comandos pra transformar ideia vaga em entrega.
+
+**3 cards:**
+- `01 /explorar` — entender o que você quer (contexto)
+- `02 /planejar` — plano com tarefas pequenas
+- `03 /executar` — uma tarefa por vez, você no controle
+
+**Rodapé:** QR code + `github.com/giuice/superpoderes`
+
+**Notas do apresentador:** slide bônus, leve pra casa. Mostrar que o fluxo dos 3 Superpoderes virou skill prática. Não demonstrar agora — apontar QR, falar que o repo tem tudo.
+
+---
+
 ## Slide 15 — Encerramento + Perguntas
 
 **Objetivo:** fechar com clareza e abrir Q&A.
