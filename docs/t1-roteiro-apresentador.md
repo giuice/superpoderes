@@ -78,16 +78,16 @@ Regra prática:
 
 **Prompt SEM contexto:**
 ```
-Crie um post pra Instagram.
+Crie um post de Instagram para o Empório Princesa, em Campanha, MG.
 ```
-*(Mostrar a resposta genérica e sem personalidade que a IA vai dar)*
+*(Mostrar a resposta genérica — a IA não sabe o que torna o Empório especial, quem é o público, qual é o clima do lugar)*
 
 **Prompt COM contexto:**
 ```
-Eu sou dono do Empório Princesa, em Campanha, MG. O negócio mistura
-empório, cafeteria, bistrô e experiências gastronômicas. Trabalhamos
-com vinhos, cervejas artesanais, queijos, cafés, lanches e também com
-eventos especiais e pratos por encomenda.
+Você é um especialista em marketing para negócios locais. O Empório
+Princesa, em Campanha, MG, é um espaço que mistura empório, cafeteria,
+bistrô e experiências gastronômicas. Trabalhamos com vinhos, cervejas
+artesanais, queijos, cafés especiais, lanches e eventos.
 
 Meu público valoriza qualidade, bom gosto e experiências mais exclusivas.
 
@@ -99,7 +99,7 @@ parecer propaganda forçada.
 
 **Ponto a destacar:**
 
-> "Vejam a diferença. Mesmo pedido. Mas a resposta com contexto já começa a parecer um texto do próprio negócio. A outra continua sendo genérica e esquecível."
+> "Vejam a diferença. O primeiro prompt tem a tarefa e o lugar — é o que qualquer pessoa digitaria. Mas a IA não sabe o que torna esse negócio especial. O segundo prompt conta isso. E quando a IA sabe quem é o negócio, quem é o público, qual é o clima — a resposta muda completamente."
 
 ### Discussão [22:00–25:00]
 
