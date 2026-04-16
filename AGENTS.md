@@ -86,8 +86,8 @@ Meu irmão está no curso Empretec e precisa montar uma empresa rapidamente. A e
 
 ### Cenários já definidos no roteiro (T1)
 
-- **Superpoder 1 (Dê Contexto):** post de Instagram para o Empório Princesa — prompt sem contexto vs. com contexto.
-- **Superpoder 2 (Seja Específico):** mensagem de WhatsApp para divulgar um evento especial no Empório Princesa — prompt vago vs. específico.
+- **Superpoder 1 (Dê Contexto):** post de Instagram para o Empório Princesa — prompt sem contexto (realista: tem tarefa e lugar, mas sem contexto) vs. com contexto (role priming + contexto do negócio + público + tom).
+- **Superpoder 2 (Seja Específico):** mensagem de WhatsApp para divulgar um evento especial no Empório Princesa — prompt vago (tem contexto básico: role + negócio + cidade, mas sem direção) vs. específico (formato, tamanho, tom, objetivo, inclua/evite).
 - **Superpoder 3 (Itere):** divulgar evento especial (bacalhoada por reserva) do Empório Princesa — 3 passos interativos no mesmo chat (Explore → Planeje → Execute 1 passo).
 
 **Saída esperada:** documento `.md` com os prompts exatos, prontos para copiar e colar, mais a descrição do resultado esperado de cada um, para ensaio e referência no dia.
@@ -99,5 +99,6 @@ Meu irmão está no curso Empretec e precisa montar uma empresa rapidamente. A e
 - Exemplos práticos e de impacto real, com foco em negócios locais e cidade pequena.
 - Público iniciante: os prompts devem ser compreensíveis para quem nunca usou IA.
 - Tom direto e profissional.
+- Cross-doc: slide 10b "De Vago a Preciso" (Bad→Good→Great recap) deve estar alinhado entre T1, T2, T3 e o deck HTML.
 - Cross-doc: o bônus "O Atalho do Contexto" (prompt de referência + fala do apresentador) deve estar alinhado entre T1, T2, T3 (slide 7b) e T7 (handout).
 - Cross-doc: o bônus "O Atalho da Iteração" (2 prompts de referência + fala do apresentador) deve estar alinhado entre T1, T2, T3 (slide 12b), T7 (handout) e demo3-prompts-sequence.md.
