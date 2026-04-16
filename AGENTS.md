@@ -57,7 +57,7 @@ Meu irmão está no curso Empretec e precisa montar uma empresa rapidamente. A e
 | E2 | Roteiro do apresentador | .md | ✅ Concluído (T1) |
 | E3 | Scripts de demo | .md | ✅ Concluído (T2) |
 | E1a | Esqueleto do deck | .md | ✅ Concluído (T3) |
-| E4 | Screenshots de backup | Imagens no deck | Pendente (T5/T6) |
+| E4 | ~~Screenshots de backup~~ | ~~Imagens no deck~~ | ❌ Cancelado — demo 100% ao vivo, sem backup |
 | E5 | Handout do participante | .pdf (1 página) | Pendente (T7) |
 
 ## Cronograma Restante
@@ -71,8 +71,8 @@ Meu irmão está no curso Empretec e precisa montar uma empresa rapidamente. A e
 ### Dia 2 — Terça
 
 - T4 – Apresentação HTML synthwave ✅
-- T5 – Rodar demos ao vivo + capturar screenshots
-- T6 – Inserir backup no deck
+- ~~T5 – Rodar demos ao vivo + capturar screenshots~~ ❌ Cancelado — demo 100% ao vivo, sem screenshots de backup
+- ~~T6 – Inserir backup no deck~~ ❌ Cancelado — mesmo motivo
 
 ### Dia 3 — Quarta
 
