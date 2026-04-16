@@ -72,50 +72,48 @@ Meu objetivo é [seu objetivo]. Me faça perguntas até ter todas as informaçõ
 ### Prompt A — Vago
 
 ```
-Escreva uma mensagem divulgando um evento do Empório Princesa.
+Você é um redator especializado em WhatsApp para negócios locais.
+Escreva uma mensagem divulgando um evento do Empório Princesa,
+em Campanha, MG.
 ```
 
-**Expected result:** Uma mensagem vaga, sem data, sem proposta clara, sem público definido e sem motivo forte para alguém se interessar. Pode soar como propaganda comum demais.
+**Expected result:** Uma mensagem com contexto básico — tem o negócio e a cidade — mas sem direção de formato, tamanho, tom ou objetivo. A IA sabe que é um evento, mas não sabe que canal usar, qual o público, nem o que incluir.
 
 **What to point out to the audience:**
-- The AI doesn't know what kind of event this is
-- It doesn't know who the audience is
-- It doesn't know the tone, size, or goal of the message
+- The prompt has context (business, city, role) but no specificity
+- It doesn't tell the AI the FORMAT (WhatsApp message, 5 lines)
+- It doesn't tell the AI the TONE, the GOAL, or what to INCLUDE/AVOID
 
 ---
 
 ### Prompt B — Específico
 
 ```
-Escreva uma mensagem curta de WhatsApp, com no máximo 5 linhas, para convidar clientes do Empório Princesa para um evento especial com um cozinheiro conhecido da cidade.
+Você é um redator especializado em mensagens de WhatsApp para negócios
+locais. Escreva uma mensagem curta de WhatsApp, com no máximo 5 linhas,
+para convidar clientes do Empório Princesa para um evento especial com
+um cozinheiro conhecido da cidade.
 
-Contexto:
-- O Empório Princesa fica em Campanha, MG
-- É um lugar para quem gosta de boa comida, bons vinhos, cervejas artesanais e produtos de qualidade
-- O evento será por reserva
-- A proposta é parecer exclusiva, mas acolhedora
+O Empório Princesa fica em Campanha, MG, e é um lugar para quem gosta
+de boa comida, vinhos, cervejas artesanais e produtos de qualidade.
+O evento será por reserva.
 
-Tom: elegante, próximo e convidativo, sem parecer propaganda forçada.
-
-Objetivo: despertar interesse e incentivar a pessoa a pedir mais informações ou reservar uma vaga.
-
-Inclua:
-- sensação de exclusividade sem soar elitista
-- uma chamada final simples para responder no WhatsApp
-
-Evite:
-- emoji em excesso
-- tom de panfleto
-- texto longo
+Tom: elegante, próximo e convidativo.
+Objetivo: despertar interesse e incentivar a pessoa a pedir mais
+informações ou reservar uma vaga.
+Inclua: sensação de exclusividade sem soar elitista, uma chamada final
+simples para responder no WhatsApp.
+Evite: emoji em excesso, tom de panfleto, texto longo.
 ```
 
 **Expected result:** Uma mensagem curta, clara e com senso de exclusividade. Deve soar como convite de um lugar especial, não como panfleto. Também deve terminar com uma chamada simples para reservar ou pedir informações.
 
 **What to point out to the audience:**
-- We told the AI the FORMAT
-- We told it the TONE
-- We told it the GOAL
-- We gave it CONTEXT about the business and the event
+- The "before" prompt already had context — but no specificity
+- We told the AI the FORMAT (WhatsApp, 5 lines)
+- We told it the TONE (elegant, inviting)
+- We told it the GOAL (spark interest, get reservations)
+- We told it what to INCLUDE and what to AVOID
 - Specific input leads to specific output
 
 ---
