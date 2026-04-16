@@ -78,16 +78,16 @@ Regra prática:
 
 **Prompt SEM contexto:**
 ```
-Crie um post pra Instagram.
+Crie um post de Instagram para o Empório Princesa, em Campanha, MG.
 ```
-*(Mostrar a resposta genérica e sem personalidade que a IA vai dar)*
+*(Mostrar a resposta genérica — a IA não sabe o que torna o Empório especial, quem é o público, qual é o clima do lugar)*
 
 **Prompt COM contexto:**
 ```
-Eu sou dono do Empório Princesa, em Campanha, MG. O negócio mistura
-empório, cafeteria, bistrô e experiências gastronômicas. Trabalhamos
-com vinhos, cervejas artesanais, queijos, cafés, lanches e também com
-eventos especiais e pratos por encomenda.
+Você é um especialista em marketing para negócios locais. O Empório
+Princesa, em Campanha, MG, é um espaço que mistura empório, cafeteria,
+bistrô e experiências gastronômicas. Trabalhamos com vinhos, cervejas
+artesanais, queijos, cafés especiais, lanches e eventos.
 
 Meu público valoriza qualidade, bom gosto e experiências mais exclusivas.
 
@@ -99,7 +99,7 @@ parecer propaganda forçada.
 
 **Ponto a destacar:**
 
-> "Vejam a diferença. Mesmo pedido. Mas a resposta com contexto já começa a parecer um texto do próprio negócio. A outra continua sendo genérica e esquecível."
+> "Vejam a diferença. O primeiro prompt tem a tarefa e o lugar — é o que qualquer pessoa digitaria. Mas a IA não sabe o que torna esse negócio especial. O segundo prompt conta isso. E quando a IA sabe quem é o negócio, quem é o público, qual é o clima — a resposta muda completamente."
 
 ### Discussão [22:00–25:00]
 
@@ -149,30 +149,35 @@ Framework simples para ser específico:
 
 **Prompt VAGO:**
 ```
-Escreva uma mensagem divulgando um evento do Empório Princesa.
+Você é um redator especializado em WhatsApp para negócios locais.
+Escreva uma mensagem divulgando um evento do Empório Princesa,
+em Campanha, MG.
 ```
-*(Mostrar a resposta genérica, formal demais, sem conteúdo real)*
+*(Mostrar a resposta — tem contexto básico, mas falta direção de formato, tamanho, tom, objetivo)*
 
 **Prompt ESPECÍFICO:**
 ```
-Escreva uma mensagem curta de WhatsApp, com no máximo 5 linhas,
-para convidar clientes do Empório Princesa para um evento especial
-com um cozinheiro conhecido da cidade.
+Você é um redator especializado em mensagens de WhatsApp para negócios
+locais. Escreva uma mensagem curta de WhatsApp, com no máximo 5 linhas,
+para convidar clientes do Empório Princesa para um evento especial com
+um cozinheiro conhecido da cidade.
 
-O Empório Princesa fica em Campanha, MG, e é um lugar para quem
-gosta de boa comida, bons vinhos, cervejas artesanais e produtos
-de qualidade.
-
+O Empório Princesa fica em Campanha, MG, e é um lugar para quem gosta
+de boa comida, vinhos, cervejas artesanais e produtos de qualidade.
 O evento será por reserva.
+
 Tom: elegante, próximo e convidativo.
 Objetivo: despertar interesse e incentivar a pessoa a pedir mais
 informações ou reservar uma vaga.
+Inclua: sensação de exclusividade sem soar elitista, uma chamada final
+simples para responder no WhatsApp.
+Evite: emoji em excesso, tom de panfleto, texto longo.
 ```
-*(Mostrar como a resposta é direta, usável, com o tom certo)*
+*(Mostrar como a resposta é direta, usável, com o tom certo — pronta pra enviar)*
 
 **Ponto a destacar:**
 
-> "Olhem o tamanho do prompt. Levou um pouco mais de tempo para escrever, mas a IA parou de adivinhar. E quando ela para de adivinhar, ela começa a ajudar de verdade."
+> "Olhem: o prompt de cima já tem contexto — tem o negócio, a cidade, o papel da IA. Mas falta dizer COMO a mensagem deve ser. O de baixo especifica: formato, tamanho, tom, objetivo, o que incluir, o que evitar. Quanto menos a IA precisa adivinhar, mais útil a resposta."
 
 ### Discussão [37:00–40:00]
 
@@ -181,6 +186,40 @@ informações ou reservar uma vaga.
 *(Pegar 1 exemplo da plateia, reformular o pedido junto com eles)*
 
 **Transição:** "Agora vocês sabem dar contexto e ser específicos. Mas tem um terceiro superpoder que a maioria ignora completamente."
+
+### Recap: De Vago a Preciso [37:00–40:00 replaces current discussion time]
+
+> "Antes de entrar no terceiro superpoder, olhem a progressão do que a gente viu:"
+
+**Nível 1 — Bad:**
+```
+Crie um post pra Instagram.
+```
+→ Genérico, sem identidade. Serve pra qualquer lugar.
+
+**Nível 2 — Good (Dê Contexto):**
+```
+Você é um especialista em marketing para negócios locais. Crie um
+post de Instagram para o Empório Princesa, em Campanha, MG — um
+espaço que mistura empório, cafeteria, bistrô e experiências
+gastronômicas. Meu público valoriza qualidade e experiências exclusivas.
+```
+→ Com contexto. Já tem cara de negócio real, mas sem direção de formato.
+
+**Nível 3 — Great (Dê Contexto + Seja Específico):**
+```
+Você é um especialista em marketing para negócios locais. O Empório
+Princesa, em Campanha, MG, é um espaço que mistura empório, cafeteria,
+bistrô e experiências gastronômicas. Meu público valoriza qualidade,
+bom gosto e experiências mais exclusivas. Crie um post para o Instagram
+convidando clientes para conhecerem o espaço neste fim de semana.
+Tom: elegante, acolhedor, sem parecer propaganda forçada. Destaque a
+experiência do lugar, não só os produtos. Mencione Campanha de forma
+natural. Termine com um convite simples para visitar ou reservar.
+```
+→ Com contexto e especificidade — usável, com identidade, pronto pra postar.
+
+> "De Bad pra Good: contexto. De Good pra Great: especificidade. E tem mais um nível — é o terceiro superpoder."
 
 ---
 

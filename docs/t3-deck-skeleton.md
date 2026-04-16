@@ -19,7 +19,7 @@ Este documento organiza a apresentação em slides para o T4. A ideia é que cad
 
 ## Estrutura Recomendada
 
-**Quantidade sugerida:** 16 slides principais + 3 slides de backup ocultos.
+**Quantidade sugerida:** 17 slides principais + 3 slides de backup ocultos.
 
 ---
 
@@ -142,13 +142,14 @@ Este documento organiza a apresentação em slides para o T4. A ideia é que cad
 **Objetivo:** mostrar a diferença entre prompt ruim e prompt com contexto.
 
 **Na tela:**
-- Prompt ruim: “Crie um post pra Instagram.”
-- Prompt melhor: contexto do Empório Princesa + público + tom + objetivo
+- Prompt sem contexto: “Crie um post de Instagram para o Empório Princesa, em Campanha, MG.”
+- Prompt com contexto: role + contexto do negócio + público + tom
 - Resultado esperado: de texto genérico para texto com identidade
 
 **Fala-base:**
 - Rodar ao vivo.
-- Mostrar que o case real ajuda a IA a sair do genérico.
+- Mostrar que o "antes" é o que qualquer pessoa digitaria — tem a tarefa e o lugar, mas falta contexto.
+- O "depois" conta quem é o negócio, quem é o público, qual é o clima. A IA deixa de adivinhar.
 
 **Visual sugerido:**
 - Lado esquerdo: sem contexto.
@@ -204,9 +205,9 @@ Este documento organiza a apresentação em slides para o T4. A ideia é que cad
 **Objetivo:** mostrar ganho de qualidade com briefing melhor.
 
 **Na tela:**
-- Prompt vago: divulgar um evento do Empório Princesa
-- Prompt específico: WhatsApp, até 5 linhas, evento por reserva, tom elegante, CTA final
-- Resultado esperado: mensagem curta, humana e utilizável
+- Prompt com contexto mas sem especificidade: "Você é um redator especializado em WhatsApp para negócios locais. Escreva uma mensagem divulgando um evento do Empório Princesa, em Campanha, MG."
+- Prompt específico: WhatsApp, até 5 linhas, evento por reserva, tom elegante, CTA final, inclua/evite
+- Resultado esperado: de mensagem com contexto mas genérica, para mensagem curta, humana e utilizável
 
 **Fala-base:**
 - Destacar que 30 segundos a mais no prompt economizam muita edição depois.
@@ -214,6 +215,35 @@ Este documento organiza a apresentação em slides para o T4. A ideia é que cad
 **Visual sugerido:**
 - Estrutura “vago” versus “específico”.
 - Ícones pequenos para formato, tom, objetivo e CTA.
+
+---
+
+## Slide 10b — De Vago a Preciso
+
+**Objetivo:** recap visual da progressão Bad→Good→Great antes de introduzir Itere.
+
+**Na tela:**
+- Título: "De Vago a Preciso"
+- Três níveis lado a lado ou empilhados:
+
+| Nível | Prompt | Resultado |
+|-------|--------|-----------|
+| **Bad** | `Crie um post pra Instagram.` | Genérico, sem identidade |
+| **Good** | `Você é um especialista em marketing para negócios locais. Crie um post de Instagram para o Empório Princesa, em Campanha, MG — um espaço que mistura empório, cafeteria, bistrô e experiências gastronômicas. Meu público valoriza qualidade e experiências exclusivas.` | Com contexto, com cara de negócio real |
+| **Great** | `Você é um especialista em marketing para negócios locais. O Empório Princesa, em Campanha, MG, é um espaço que mistura empório, cafeteria, bistrô e experiências gastronômicas. Meu público valoriza qualidade, bom gosto e experiências mais exclusivas. Crie um post para o Instagram convidando clientes para conhecerem o espaço neste fim de semana. Tom: elegante, acolhedor, sem parecer propaganda forçada. Destaque a experiência, não só os produtos. Mencione Campanha. Termine com um convite.` | Com contexto + especificidade — usável |
+
+- Subtexto: "Bad → Good = Dê Contexto. Good → Great = Seja Específico. E tem mais."
+
+**Fala-base:**
+- De Bad pra Good: contexto.
+- De Good pra Great: especificidade.
+- E tem mais um nível — é o terceiro superpoder.
+
+**Visual sugerido:**
+- Três cards empilhados ou lado a lado.
+- Cada card mostra o prompt em destaque e uma frase sobre o resultado.
+- Cores ou ícones diferentes pra cada nível (vermelho/amarelo/verde ou similar).
+- Fundo limpo, fotográfico.
 
 ---
 
@@ -361,7 +391,7 @@ Este documento organiza a apresentação em slides para o T4. A ideia é que cad
 ## Sequência Recomendada de Construção no T4
 
 1. Definir capa, tipografia e linguagem visual.
-2. Montar os 16 slides principais com pouco texto e muita hierarquia.
+2. Montar os 17 slides principais com pouco texto e muita hierarquia.
 3. Reservar espaço nos slides 7, 10 e 12 para prints ou comparação visual.
 4. Criar 3 slides ocultos de backup.
 5. Ensaiar com cronômetro e cortar qualquer excesso.
