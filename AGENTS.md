@@ -20,6 +20,8 @@ Meu irmão está no curso Empretec e precisa montar uma empresa rapidamente. A e
 
 **Formato da apresentação:** HTML com Reveal.js, estilo synthwave/retrofuturista. Hospedado no GitHub Pages. Acessível via URL, compartilhável com participantes após o workshop.
 
+**URL da apresentação:** `https://giuice.github.io/superpoderes/`
+
 **Estrutura:** Workshop dos 3 Superpoderes
 
 | # | Nome | Conceito |
