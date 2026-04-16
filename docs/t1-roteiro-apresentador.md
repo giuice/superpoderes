@@ -187,6 +187,40 @@ Evite: emoji em excesso, tom de panfleto, texto longo.
 
 **Transição:** "Agora vocês sabem dar contexto e ser específicos. Mas tem um terceiro superpoder que a maioria ignora completamente."
 
+### Recap: De Vago a Preciso [37:00–40:00 replaces current discussion time]
+
+> "Antes de entrar no terceiro superpoder, olhem a progressão do que a gente viu:"
+
+**Nível 1 — Bad:**
+```
+Crie um post pra Instagram.
+```
+→ Genérico, sem identidade. Serve pra qualquer lugar.
+
+**Nível 2 — Good (Dê Contexto):**
+```
+Você é um especialista em marketing para negócios locais. Crie um
+post de Instagram para o Empório Princesa, em Campanha, MG — um
+espaço que mistura empório, cafeteria, bistrô e experiências
+gastronômicas. Meu público valoriza qualidade e experiências exclusivas.
+```
+→ Com contexto. Já tem cara de negócio real, mas sem direção de formato.
+
+**Nível 3 — Great (Dê Contexto + Seja Específico):**
+```
+Você é um especialista em marketing para negócios locais. O Empório
+Princesa, em Campanha, MG, é um espaço que mistura empório, cafeteria,
+bistrô e experiências gastronômicas. Meu público valoriza qualidade,
+bom gosto e experiências mais exclusivas. Crie um post para o Instagram
+convidando clientes para conhecerem o espaço neste fim de semana.
+Tom: elegante, acolhedor, sem parecer propaganda forçada. Destaque a
+experiência do lugar, não só os produtos. Mencione Campanha de forma
+natural. Termine com um convite simples para visitar ou reservar.
+```
+→ Com contexto e especificidade — usável, com identidade, pronto pra postar.
+
+> "De Bad pra Good: contexto. De Good pra Great: especificidade. E tem mais um nível — é o terceiro superpoder."
+
 ---
 
 ## [40:00–52:00] Superpoder 3 — Itere
