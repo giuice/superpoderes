@@ -120,17 +120,17 @@
       <div class="ba">
         <div class="col before">
           <div class="label">// SEM CONTEXTO</div>
-          <p style="font-family:'JetBrains Mono',monospace; font-size:1rem;">"Crie um post pra Instagram."</p>
-          <p style="margin-top:1rem; font-size:0.95rem; color: var(--text-mid);">→ texto genérico, sem identidade</p>
+          <p style="font-family:'JetBrains Mono',monospace; font-size:1rem;">"Crie um post de Instagram para o Empório Princesa, em Campanha, MG."</p>
+          <p style="margin-top:1rem; font-size:0.95rem; color: var(--text-mid);">→ a IA não sabe o que torna o Empório especial</p>
         </div>
         <div class="col after">
           <div class="label">// COM CONTEXTO</div>
-          <p style="font-family:'JetBrains Mono',monospace; font-size:1rem;">Empório Princesa, Campanha, MG · bistrô+empório · público: moradores locais 30-60 anos · tom elegante e acolhedor · objetivo: divulgar café da tarde de sábado.</p>
+          <p style="font-family:'JetBrains Mono',monospace; font-size:0.9rem;">Você é especialista em marketing para negócios locais. O Empório Princesa mistura empório, cafeteria, bistrô e experiências gastronômicas. Público: qualidade, bom gosto, exclusividade. Tom: elegante e acolhedor.</p>
           <p style="margin-top:1rem; font-size:0.95rem; color: var(--text-light);">→ texto com identidade do negócio</p>
         </div>
       </div>
       <aside class="notes">
-        Rodar ao vivo se der — se não, usar screenshot backup. Mostrar o mesmo prompt "pelado" vs com contexto. Destacar: mesmo modelo, mesma ferramenta, mesma duração. Só mudou a entrada. Saída 10x melhor.
+        Rodar ao vivo. O "antes" é o que qualquer pessoa digitaria — tem a tarefa e o lugar, mas falta contexto. O "depois" conta quem é o negócio, quem é o público, qual é o clima. A IA deixa de adivinhar.
       </aside>
     </section>
 
@@ -176,16 +176,44 @@
       <div class="ba">
         <div class="col before">
           <div class="label">// VAGO</div>
-          <p style="font-family:'JetBrains Mono',monospace; font-size:1rem;">"Faça uma divulgação de um evento do Empório Princesa."</p>
+          <p style="font-family:'JetBrains Mono',monospace; font-size:0.9rem;">"Você é um redator especializado em WhatsApp. Escreva uma mensagem divulgando um evento do Empório Princesa, em Campanha, MG."</p>
+          <p style="margin-top:0.5rem; font-size:0.85rem; color: var(--text-mid);">→ tem contexto, mas sem formato, tom ou objetivo</p>
         </div>
         <div class="col after">
           <div class="label">// ESPECÍFICO</div>
-          <p style="font-family:'JetBrains Mono',monospace; font-size:0.95rem;">Mensagem de WhatsApp · até 5 linhas · evento especial por reserva · tom elegante e acolhedor · CTA de reserva no fim · para envio à lista de clientes.</p>
+          <p style="font-family:'JetBrains Mono',monospace; font-size:0.85rem;">WhatsApp · até 5 linhas · evento por reserva · tom elegante · CTA de reserva · inclua: exclusividade · evite: emoji excessivo, panfleto</p>
         </div>
       </div>
       <p style="margin-top:1.5rem; font-size:1rem; color: var(--gold); text-align:center;">30 segundos a mais no prompt = 10 minutos a menos editando depois.</p>
       <aside class="notes">
-        Destacar que o tempo investido no prompt retorna 10x na qualidade e economia de edição. Mostrar a mensagem final curta e pronta pra enviar. Ninguém quer reescrever mensagem de IA 3 vezes.
+        Destacar que o prompt de cima já tem contexto — mas falta especificidade. O de baixo especifica: formato, tamanho, tom, objetivo, o que incluir, o que evitar. Quanto menos a IA precisa adivinhar, mais útil a resposta.
+      </aside>
+    </section>
+
+    <!-- Slide 10b — De Vago a Preciso -->
+    <section>
+      <div class="eyebrow">// RECAP</div>
+      <h2>De Vago a Preciso</h2>
+      <div style="margin-top:1.5rem;">
+        <div style="background:rgba(255,71,87,0.15); border-left:4px solid var(--neon-pink); padding:1rem 1.2rem; margin-bottom:0.8rem; border-radius:4px;">
+          <div style="font-family:'Michroma'; font-size:0.75rem; color:var(--neon-pink); margin-bottom:0.3rem;">BAD</div>
+          <p style="font-family:'JetBrains Mono',monospace; font-size:0.95rem;">"Crie um post pra Instagram."</p>
+          <p style="font-size:0.85rem; color:var(--text-mid); margin-top:0.3rem;">→ genérico, sem identidade</p>
+        </div>
+        <div style="background:rgba(255,193,7,0.15); border-left:4px solid var(--gold); padding:1rem 1.2rem; margin-bottom:0.8rem; border-radius:4px;">
+          <div style="font-family:'Michroma'; font-size:0.75rem; color:var(--gold); margin-bottom:0.3rem;">GOOD · DÊ CONTEXTO</div>
+          <p style="font-family:'JetBrains Mono',monospace; font-size:0.85rem;">"Você é especialista em marketing local. Crie um post para o Empório Princesa — empório, cafeteria, bistrô. Público: qualidade e exclusividade."</p>
+          <p style="font-size:0.85rem; color:var(--text-mid); margin-top:0.3rem;">→ com contexto, cara de negócio real</p>
+        </div>
+        <div style="background:rgba(0,230,118,0.15); border-left:4px solid #00e676; padding:1rem 1.2rem; margin-bottom:0.8rem; border-radius:4px;">
+          <div style="font-family:'Michroma'; font-size:0.75rem; color:#00e676; margin-bottom:0.3rem;">GREAT · DÊ CONTEXTO + SEJA ESPECÍFICO</div>
+          <p style="font-family:'JetBrains Mono',monospace; font-size:0.85rem;">"…Tom: elegante e acolhedor. Destaque a experiência, não só os produtos. Mencione Campanha. Termine com um convite."</p>
+          <p style="font-size:0.85rem; color:var(--text-light); margin-top:0.3rem;">→ com contexto + especificidade — usável, pronto pra postar</p>
+        </div>
+      </div>
+      <p style="margin-top:1rem; font-size:1rem; color: var(--gold); text-align:center;">Bad → Good = Dê Contexto. Good → Great = Seja Específico. E tem mais.</p>
+      <aside class="notes">
+        De Bad pra Good: contexto. De Good pra Great: especificidade. E tem mais um nível — é o terceiro superpoder.
       </aside>
     </section>
 
