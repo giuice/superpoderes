@@ -118,6 +118,31 @@ Evite: emoji em excesso, tom de panfleto, texto longo.
 
 ---
 
+## Recap: Bad → Good → Great
+
+> **Nota ao apresentador:** Não é demo ao vivo. É um slide de recap que mostra a progressão dos dois superpoderes antes de introduzir o terceiro. Mostre o slide e narre brevemente.
+
+**Mesma tarefa: post de Instagram para o Empório Princesa**
+
+| Nível | Prompt | Resultado |
+|-------|--------|-----------|
+| **Bad** | `Crie um post pra Instagram.` | Genérico, sem identidade |
+| **Good** | `Você é um especialista em marketing para negócios locais. Crie um post de Instagram para o Empório Princesa, em Campanha, MG — um espaço que mistura empório, cafeteria, bistrô e experiências gastronômicas. Meu público valoriza qualidade e experiências exclusivas.` | Com contexto, já tem cara de negócio real |
+| **Great** | `Você é um especialista em marketing para negócios locais. O Empório Princesa, em Campanha, MG, é um espaço que mistura empório, cafeteria, bistrô e experiências gastronômicas. Meu público valoriza qualidade, bom gosto e experiências mais exclusivas. Crie um post para o Instagram convidando clientes para conhecerem o espaço neste fim de semana. Tom: elegante, acolhedor, sem parecer propaganda forçada. Destaque a experiência do lugar, não só os produtos. Mencione Campanha de forma natural. Termine com um convite simples para visitar ou reservar.` | Com contexto e especificidade — usável, pronto pra postar |
+
+**O que dizer à plateia:**
+"De Bad pra Good: contexto. De Good pra Great: especificidade. E tem mais um nível — é o terceiro superpoder."
+
+**Diferença entre níveis:**
+
+| Salto | O que muda | Superpoder |
+|-------|-----------|------------|
+| Bad → Good | Contexto (quem é, pra quem, qual o clima) | SP1: Dê Contexto |
+| Good → Great | Especificidade (formato, tom, incluir/evitar) | SP2: Seja Específico |
+| Great → ... | Explorar, planejar, executar | SP3: Itere |
+
+---
+
 ## Demo 3 — Superpoder 3: Itere
 
 **Scenario:** Divulgar a bacalhoada deste sábado no Empório Princesa, em Campanha, MG.
