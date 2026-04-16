@@ -142,13 +142,14 @@ Este documento organiza a apresentação em slides para o T4. A ideia é que cad
 **Objetivo:** mostrar a diferença entre prompt ruim e prompt com contexto.
 
 **Na tela:**
-- Prompt ruim: “Crie um post pra Instagram.”
-- Prompt melhor: contexto do Empório Princesa + público + tom + objetivo
+- Prompt sem contexto: “Crie um post de Instagram para o Empório Princesa, em Campanha, MG.”
+- Prompt com contexto: role + contexto do negócio + público + tom
 - Resultado esperado: de texto genérico para texto com identidade
 
 **Fala-base:**
 - Rodar ao vivo.
-- Mostrar que o case real ajuda a IA a sair do genérico.
+- Mostrar que o "antes" é o que qualquer pessoa digitaria — tem a tarefa e o lugar, mas falta contexto.
+- O "depois" conta quem é o negócio, quem é o público, qual é o clima. A IA deixa de adivinhar.
 
 **Visual sugerido:**
 - Lado esquerdo: sem contexto.
@@ -204,9 +205,9 @@ Este documento organiza a apresentação em slides para o T4. A ideia é que cad
 **Objetivo:** mostrar ganho de qualidade com briefing melhor.
 
 **Na tela:**
-- Prompt vago: divulgar um evento do Empório Princesa
-- Prompt específico: WhatsApp, até 5 linhas, evento por reserva, tom elegante, CTA final
-- Resultado esperado: mensagem curta, humana e utilizável
+- Prompt com contexto mas sem especificidade: "Você é um redator especializado em WhatsApp para negócios locais. Escreva uma mensagem divulgando um evento do Empório Princesa, em Campanha, MG."
+- Prompt específico: WhatsApp, até 5 linhas, evento por reserva, tom elegante, CTA final, inclua/evite
+- Resultado esperado: de mensagem com contexto mas genérica, para mensagem curta, humana e utilizável
 
 **Fala-base:**
 - Destacar que 30 segundos a mais no prompt economizam muita edição depois.
