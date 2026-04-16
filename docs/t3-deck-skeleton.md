@@ -19,7 +19,7 @@ Este documento organiza a apresentação em slides para o T4. A ideia é que cad
 
 ## Estrutura Recomendada
 
-**Quantidade sugerida:** 16 slides principais + 3 slides de backup ocultos.
+**Quantidade sugerida:** 17 slides principais + 3 slides de backup ocultos.
 
 ---
 
@@ -218,6 +218,35 @@ Este documento organiza a apresentação em slides para o T4. A ideia é que cad
 
 ---
 
+## Slide 10b — De Vago a Preciso
+
+**Objetivo:** recap visual da progressão Bad→Good→Great antes de introduzir Itere.
+
+**Na tela:**
+- Título: "De Vago a Preciso"
+- Três níveis lado a lado ou empilhados:
+
+| Nível | Prompt | Resultado |
+|-------|--------|-----------|
+| **Bad** | `Crie um post pra Instagram.` | Genérico, sem identidade |
+| **Good** | `Você é um especialista em marketing para negócios locais. Crie um post de Instagram para o Empório Princesa, em Campanha, MG — um espaço que mistura empório, cafeteria, bistrô e experiências gastronômicas. Meu público valoriza qualidade e experiências exclusivas.` | Com contexto, com cara de negócio real |
+| **Great** | `Você é um especialista em marketing para negócios locais. O Empório Princesa, em Campanha, MG, é um espaço que mistura empório, cafeteria, bistrô e experiências gastronômicas. Meu público valoriza qualidade, bom gosto e experiências mais exclusivas. Crie um post para o Instagram convidando clientes para conhecerem o espaço neste fim de semana. Tom: elegante, acolhedor, sem parecer propaganda forçada. Destaque a experiência, não só os produtos. Mencione Campanha. Termine com um convite.` | Com contexto + especificidade — usável |
+
+- Subtexto: "Bad → Good = Dê Contexto. Good → Great = Seja Específico. E tem mais."
+
+**Fala-base:**
+- De Bad pra Good: contexto.
+- De Good pra Great: especificidade.
+- E tem mais um nível — é o terceiro superpoder.
+
+**Visual sugerido:**
+- Três cards empilhados ou lado a lado.
+- Cada card mostra o prompt em destaque e uma frase sobre o resultado.
+- Cores ou ícones diferentes pra cada nível (vermelho/amarelo/verde ou similar).
+- Fundo limpo, fotográfico.
+
+---
+
 ## Slide 11 — Superpoder 3: Itere
 
 **Objetivo:** introduzir a lógica de Explore → Planeje → Execute.
@@ -362,7 +391,7 @@ Este documento organiza a apresentação em slides para o T4. A ideia é que cad
 ## Sequência Recomendada de Construção no T4
 
 1. Definir capa, tipografia e linguagem visual.
-2. Montar os 16 slides principais com pouco texto e muita hierarquia.
+2. Montar os 17 slides principais com pouco texto e muita hierarquia.
 3. Reservar espaço nos slides 7, 10 e 12 para prints ou comparação visual.
 4. Criar 3 slides ocultos de backup.
 5. Ensaiar com cronômetro e cortar qualquer excesso.
