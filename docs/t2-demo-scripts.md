@@ -14,43 +14,38 @@
 ### Prompt A — Sem Contexto
 
 ```
-Crie um post pra Instagram.
+Crie um post de Instagram para o Empório Princesa, em Campanha, MG.
 ```
 
-**Expected result:** Texto genérico, que poderia servir para qualquer loja. Provavelmente vai usar frases vagas como "venha nos visitar" ou "temos qualidade e bom atendimento", sem mostrar o que torna o lugar especial.
+**Expected result:** Texto genérico sobre "um empório" — a IA não sabe o que torna o Empório especial, quem é o público, qual é o clima do lugar. Provavelmente vai usar frases vagas como "venha nos visitar" ou "temos qualidade e bom atendimento".
 
 **What to point out to the audience:**
-- The AI doesn't know what makes THIS business special
-- It doesn't know the city, the vibe, or who the clients are
-- Without context, the AI has to guess everything
+- The AI knows the business name and city, but not what makes it special
+- It doesn't know the vibe, the audience, or the personality of the place
+- Without context, the AI can only produce something generic about "an emporium"
 
 ---
 
 ### Prompt B — Com Contexto
 
 ```
-Você é um especialista em marketing para pequenos negócios de cidade pequena.
+Você é um especialista em marketing para negócios locais. O Empório
+Princesa, em Campanha, MG, é um espaço que mistura empório, cafeteria,
+bistrô e experiências gastronômicas. Trabalhamos com vinhos, cervejas
+artesanais, queijos, cafés especiais, lanches e eventos.
 
-Eu sou dono do Empório Princesa, em Campanha, MG. O Empório Princesa é um lugar diferenciado: mistura empório, bistrô, cafeteria e experiências gastronômicas. Trabalhamos com produtos de qualidade, vinhos, cervejas artesanais, queijos, cafés, lanches e também fazemos eventos especiais e pratos por encomenda.
+Meu público valoriza qualidade, bom gosto e experiências mais exclusivas.
 
-Meu público é formado por pessoas que gostam de comer e beber bem, valorizam qualidade e gostam de experiências mais exclusivas.
-
-Crie um post de Instagram convidando as pessoas para conhecerem o Empório Princesa neste fim de semana.
-
-Regras:
-- texto principal com no máximo 7 linhas
-- tom elegante, acolhedor e sem exagero
-- destacar a experiência do lugar, não só os produtos
-- mencionar Campanha, MG de forma natural
-- terminar com um convite simples para visitar ou reservar
-- não usar clichês como "imperdível" ou "você não pode perder"
+Crie um post para o Instagram convidando clientes para conhecerem o
+espaço neste fim de semana. O tom deve ser elegante, acolhedor e sem
+parecer propaganda forçada.
 ```
 
-**Expected result:** Texto com cara de negócio real, mencionando Campanha ou o clima de cidade pequena, destacando o diferencial do espaço, a curadoria de produtos e a experiência de sentar para tomar um vinho, uma cerveja artesanal ou comer algo especial. Muito mais específico e aproveitável.
+**Expected result:** Texto com cara de negócio real, mencionando Campanha ou o clima de cidade pequena, destacando o diferencial do espaço, a curadoria de produtos e a experiência de sentar para tomar um vinho, uma cerveja artesnal ou comer algo especial. Muito mais específico e aproveitável.
 
 **What to point out to the audience:**
 - Same task, completely different quality
-- The AI now has everything it needs to deliver what the business wants — identity, audience, goal, tone
+- The prompt now tells the AI: who the business is, who the audience is, what the vibe is
 - This is what relevant context does — the AI goes from generic to delivering exactly what you need
 
 ### Bônus — O Atalho do Contexto
@@ -77,51 +72,74 @@ Meu objetivo é [seu objetivo]. Me faça perguntas até ter todas as informaçõ
 ### Prompt A — Vago
 
 ```
-Escreva uma mensagem divulgando um evento do Empório Princesa.
+Você é um redator especializado em WhatsApp para negócios locais.
+Escreva uma mensagem divulgando um evento do Empório Princesa,
+em Campanha, MG.
 ```
 
-**Expected result:** Uma mensagem vaga, sem data, sem proposta clara, sem público definido e sem motivo forte para alguém se interessar. Pode soar como propaganda comum demais.
+**Expected result:** Uma mensagem com contexto básico — tem o negócio e a cidade — mas sem direção de formato, tamanho, tom ou objetivo. A IA sabe que é um evento, mas não sabe que canal usar, qual o público, nem o que incluir.
 
 **What to point out to the audience:**
-- The AI doesn't know what kind of event this is
-- It doesn't know who the audience is
-- It doesn't know the tone, size, or goal of the message
+- The prompt has context (business, city, role) but no specificity
+- It doesn't tell the AI the FORMAT (WhatsApp message, 5 lines)
+- It doesn't tell the AI the TONE, the GOAL, or what to INCLUDE/AVOID
 
 ---
 
 ### Prompt B — Específico
 
 ```
-Escreva uma mensagem curta de WhatsApp, com no máximo 5 linhas, para convidar clientes do Empório Princesa para um evento especial com um cozinheiro conhecido da cidade.
+Você é um redator especializado em mensagens de WhatsApp para negócios
+locais. Escreva uma mensagem curta de WhatsApp, com no máximo 5 linhas,
+para convidar clientes do Empório Princesa para um evento especial com
+um cozinheiro conhecido da cidade.
 
-Contexto:
-- O Empório Princesa fica em Campanha, MG
-- É um lugar para quem gosta de boa comida, bons vinhos, cervejas artesanais e produtos de qualidade
-- O evento será por reserva
-- A proposta é parecer exclusiva, mas acolhedora
+O Empório Princesa fica em Campanha, MG, e é um lugar para quem gosta
+de boa comida, vinhos, cervejas artesanais e produtos de qualidade.
+O evento será por reserva.
 
-Tom: elegante, próximo e convidativo, sem parecer propaganda forçada.
-
-Objetivo: despertar interesse e incentivar a pessoa a pedir mais informações ou reservar uma vaga.
-
-Inclua:
-- sensação de exclusividade sem soar elitista
-- uma chamada final simples para responder no WhatsApp
-
-Evite:
-- emoji em excesso
-- tom de panfleto
-- texto longo
+Tom: elegante, próximo e convidativo.
+Objetivo: despertar interesse e incentivar a pessoa a pedir mais
+informações ou reservar uma vaga.
+Inclua: sensação de exclusividade sem soar elitista, uma chamada final
+simples para responder no WhatsApp.
+Evite: emoji em excesso, tom de panfleto, texto longo.
 ```
 
 **Expected result:** Uma mensagem curta, clara e com senso de exclusividade. Deve soar como convite de um lugar especial, não como panfleto. Também deve terminar com uma chamada simples para reservar ou pedir informações.
 
 **What to point out to the audience:**
-- We told the AI the FORMAT
-- We told it the TONE
-- We told it the GOAL
-- We gave it CONTEXT about the business and the event
+- The "before" prompt already had context — but no specificity
+- We told the AI the FORMAT (WhatsApp, 5 lines)
+- We told it the TONE (elegant, inviting)
+- We told it the GOAL (spark interest, get reservations)
+- We told it what to INCLUDE and what to AVOID
 - Specific input leads to specific output
+
+---
+
+## Recap: Bad → Good → Great
+
+> **Nota ao apresentador:** Não é demo ao vivo. É um slide de recap que mostra a progressão dos dois superpoderes antes de introduzir o terceiro. Mostre o slide e narre brevemente.
+
+**Mesma tarefa: post de Instagram para o Empório Princesa**
+
+| Nível | Prompt | Resultado |
+|-------|--------|-----------|
+| **Bad** | `Crie um post pra Instagram.` | Genérico, sem identidade |
+| **Good** | `Você é um especialista em marketing para negócios locais. Crie um post de Instagram para o Empório Princesa, em Campanha, MG — um espaço que mistura empório, cafeteria, bistrô e experiências gastronômicas. Meu público valoriza qualidade e experiências exclusivas.` | Com contexto, já tem cara de negócio real |
+| **Great** | `Você é um especialista em marketing para negócios locais. O Empório Princesa, em Campanha, MG, é um espaço que mistura empório, cafeteria, bistrô e experiências gastronômicas. Meu público valoriza qualidade, bom gosto e experiências mais exclusivas. Crie um post para o Instagram convidando clientes para conhecerem o espaço neste fim de semana. Tom: elegante, acolhedor, sem parecer propaganda forçada. Destaque a experiência do lugar, não só os produtos. Mencione Campanha de forma natural. Termine com um convite simples para visitar ou reservar.` | Com contexto e especificidade — usável, pronto pra postar |
+
+**O que dizer à plateia:**
+"De Bad pra Good: contexto. De Good pra Great: especificidade. E tem mais um nível — é o terceiro superpoder."
+
+**Diferença entre níveis:**
+
+| Salto | O que muda | Superpoder |
+|-------|-----------|------------|
+| Bad → Good | Contexto (quem é, pra quem, qual o clima) | SP1: Dê Contexto |
+| Good → Great | Especificidade (formato, tom, incluir/evitar) | SP2: Seja Específico |
+| Great → ... | Explorar, planejar, executar | SP3: Itere |
 
 ---
 
