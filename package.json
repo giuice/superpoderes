@@ -1,0 +1,11 @@
+{
+  "name": "superpoderes-capture",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "capture": "node scripts/capture-demos.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.52.0"
+  }
+}
