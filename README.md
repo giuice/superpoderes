@@ -29,7 +29,7 @@ Cole em qualquer IA. Funciona.
 
 Quer ir além? O fluxo Explorar → Planejar → Executar te guia passo a passo em qualquer tarefa com IA.
 
-👉 [Prompt completo: Explorar → Planejar → Executar](prompt-superpoderes/explorar-planejar-executar.md)
+**[Prompt completo: Explorar → Planejar → Executar](prompt-superpoderes/explorar-planejar-executar.md)**
 
 ## Como usar
 
