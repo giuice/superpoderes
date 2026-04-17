@@ -58,7 +58,9 @@ Meu irmão está no curso Empretec e precisa montar uma empresa rapidamente. A e
 | E3 | Scripts de demo | .md | ✅ Concluído (T2) |
 | E1a | Esqueleto do deck | .md | ✅ Concluído (T3) |
 | E4 | Screenshots de backup | Imagens no deck | Pendente (T5/T6) |
-| E5 | Handout do participante | .pdf (1 página) | Pendente (T7) |
+| E5 | Handout do participante | .pdf | ✅ Concluído |
+| E6 | Prompt EPE colável | .md | ✅ Concluído |
+| E7 | README do repo | .md | ✅ Concluído |
 
 ## Cronograma Restante
 
@@ -76,7 +78,7 @@ Meu irmão está no curso Empretec e precisa montar uma empresa rapidamente. A e
 
 ### Dia 3 — Quarta
 
-- T7 – Handout (PDF 1 página)
+- T7 – Handout (PDF 1 página) ✅
 - T8 – Ensaio cronometrado
 - T9 – Ajustes finais
 
