@@ -1,0 +1,14 @@
+---
+header-includes:
+  - \usepackage{fancyhdr}
+  - \pagestyle{fancy}
+  - \fancyhead[L]{\small Mentes em Ação}
+  - \fancyhead[R]{\small Aprendendo o Básico pra Lidar com IA}
+  - \fancyfoot[C]{\small giuice.github.io/superpoderes · github.com/giuice/superpoderes}
+  - \renewcommand{\headrulewidth}{0.4pt}
+  - \renewcommand{\footrulewidth}{0.4pt}
+geometry: margin=2cm
+fontsize: 11pt
+mainfont: FreeSans
+monofont: FreeMono
+---
