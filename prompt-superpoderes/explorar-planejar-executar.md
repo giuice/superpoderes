@@ -137,7 +137,7 @@ Se a IA perceber que o plano está errado (premissa caiu, dependência faltando)
 Quando todas as tarefas estiverem feitas:
 
 - Resumo curto do que foi entregue (3-6 linhas).
-- Lista dos caminhos dos arquivos gerados.
+- Resumo do que foi entregue em cada tarefa.
 - Não sugere próximo passo automaticamente — você decide.
 
 ### O que NÃO acontece em Executar
