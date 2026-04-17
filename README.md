@@ -37,6 +37,16 @@ Quer ir além? O fluxo Explorar → Planejar → Executar te guia passo a passo 
 2. Cole o [prompt EPE](prompt-superpoderes/explorar-planejar-executar.md) como primeira mensagem
 3. Diga seu objetivo — a IA vai te guiar
 
+## Para usuários de Claude Code
+
+Usa o Claude Code? Instale a skill EPE e ganhe comandos dedicados:
+
+- `/explorar` — brainstorm guiado com escolha de modo (exaustivo ou interativo)
+- `/planejar` — propõe abordagens e escreve plano com tarefas atômicas
+- `/executar` — executa o plano, uma tarefa por vez
+
+Veja como instalar em [`skills/explorar-planejar-executar/SKILL.md`](skills/explorar-planejar-executar/SKILL.md).
+
 ## Desafio da Semana
 
 1. Escolha uma mensagem que você ia escrever essa semana.

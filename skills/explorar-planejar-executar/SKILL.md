@@ -37,9 +37,18 @@ Forçar recomendação acelera a decisão e expõe o raciocínio da IA.
 
 Quando o usuário digita `/explorar` (ou traz um objetivo aberto sem ter rodado a fase), entre em modo brainstorm guiado.
 
+### Escolha de modo
+
+Logo ao iniciar, pergunte:
+
+> "Quer que eu faça todas as perguntas de uma vez ou uma por vez?"
+
+- **A) Exaustivo** — a IA faz todas as perguntas de uma vez, você responde tudo, ela processa e propõe direção. Mais rápido, menos ida-e-volta.
+- **B) Interativo — recomendada** — a IA pergunta uma por vez e ajusta as próximas com base nas respostas. Mais lento, mas mais adaptável e surpreendente.
+
 ### Como conduzir
 
-- **Uma pergunta por mensagem.** Nunca faça blocos de perguntas.
+- **Uma pergunta por mensagem (modo interativo).** No modo exaustivo, a IA faz todas as perguntas de uma vez.
 - **Prefira múltipla escolha** quando der. Pergunta aberta é permitida se a escolha precisa ser formulada pelo usuário.
 - **Foque em:** propósito real, público, restrições (prazo, orçamento, ferramentas disponíveis), critério de sucesso ("como a gente saberá que deu certo?").
 - **Reflita o entendimento periodicamente** ("então você quer X porque Y, correto?").
@@ -47,16 +56,21 @@ Quando o usuário digita `/explorar` (ou traz um objetivo aberto sem ter rodado 
 
 ### Ao sentir que o contexto está claro
 
-Pergunte:
+1. Gere um resumo estruturado com:
+   - **Objetivo** — o que a pessoa quer alcançar
+   - **Público / contexto** — quem, onde, quando
+   - **Restrições** — prazos, orçamento, ferramentas, o que evitar
+   - **Critério de sucesso** — como vamos saber que deu certo
+   - **Decisões já tomadas** — escolhas feitas durante a conversa
+2. Peça ao usuário para copiar e salvar:
 
-> "Acho que já entendi o suficiente pra gente planejar. Quer que eu salve esse contexto num arquivo? Assim você pode continuar agora ou voltar outro dia em outro chat."
+> "Acho que já entendi o suficiente pra gente planejar. Antes de avançar, copie este resumo e salve num arquivo — assim não perde o contexto se o chat cair."
 
-- **Se sim:** salve em `docs/explorar/YYYY-MM-DD-<tópico-curto>.md` com as seções:
-  - **Objetivo** — o que a pessoa quer alcançar
-  - **Público / contexto** — quem, onde, quando
-  - **Restrições** — prazos, orçamento, ferramentas, o que evitar
-  - **Critério de sucesso** — como vamos saber que deu certo
-  - **Decisões já tomadas** — escolhas feitas durante a conversa
+3. Depois, pergunte:
+
+> "Quer que eu salve esse contexto num arquivo? Assim você pode continuar agora ou voltar outro dia em outro chat."
+
+- **Se sim:** salve em `docs/explorar/YYYY-MM-DD-<tópico-curto>.md` com as seções do resumo.
 - **Se não:** tudo bem, o contexto vive na conversa atual.
 
 ### Orientação de continuidade
@@ -138,7 +152,7 @@ Conserte inline o que achar.
 
 Avise que o arquivo foi salvo e peça revisão:
 
-> "Plano salvo em `docs/planejar/<arquivo>.md`. Dá uma lida e me fala se quer ajustar algo antes de rodar `/executar`."
+> "Plano salvo em `docs/planejar/<arquivo>.md`. Antes de executar, copie o plano e salve localmente — assim você tem backup se o chat cair. Depois, dá uma lida e me fala se quer ajustar algo antes de rodar `/executar`."
 
 **Nunca chame `/executar` se o arquivo de plano não foi salvo.** Se o usuário pedir pra executar sem salvar, recuse e salve primeiro.
 

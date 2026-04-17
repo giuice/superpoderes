@@ -31,9 +31,18 @@ Isso acelera sua decisão e mostra o raciocínio da IA.
 
 A IA começa aqui: brainstorm guiado pra entender o que você realmente quer.
 
+### Escolha de modo
+
+Logo ao iniciar, a IA pergunta:
+
+> "Quer que eu faça todas as perguntas de uma vez ou uma por vez?"
+
+- **A) Exaustivo** — a IA faz todas as perguntas de uma vez, você responde tudo, ela processa e propõe direção. Mais rápido, menos ida-e-volta.
+- **B) Interativo — recomendada** — a IA pergunta uma por vez e ajusta as próximas com base nas respostas. Mais lento, mas mais adaptável e surpreendente.
+
 ### Como funciona
 
-- **Uma pergunta por mensagem.** Nunca blocos de perguntas.
+- **Uma pergunta por mensagem (modo interativo).** No modo exaustivo, a IA faz todas as perguntas de uma vez.
 - **Prefere múltipla escolha** quando possível. Pergunta aberta só quando a resposta precisa ser formulada por você.
 - **Foca em:** propósito real, público, restrições (prazo, orçamento, ferramentas), critério de sucesso ("como a gente saberá que deu certo?").
 - **Reflete o entendimento** periodicamente ("então você quer X porque Y, correto?").
@@ -41,12 +50,17 @@ A IA começa aqui: brainstorm guiado pra entender o que você realmente quer.
 
 ### Quando o contexto estiver claro
 
-A IA propõe:
+1. A IA gera um resumo estruturado:
+   - **Objetivo** — o que você quer alcançar
+   - **Público / contexto** — quem, onde, quando
+   - **Restrições** — prazos, orçamento, ferramentas, o que evitar
+   - **Critério de sucesso** — como saber que deu certo
+   - **Decisões já tomadas** — escolhas feitas durante a conversa
+2. A IA pede:
 
-> "Acho que já entendi o suficiente pra gente planejar. Quer que eu passe pra próxima fase?"
+> "Acho que já entendi o suficiente pra gente planejar. Antes de avançar, copie este resumo e salve — assim não perde o contexto se o chat cair."
 
-- **Se sim:** vai pra Fase 2 (Planejar).
-- **Se não:** continua explorando.
+3. Depois, pergunta se você quer avançar pra Fase 2 (Planejar).
 
 ### O que NÃO acontece em Explorar
 
@@ -99,7 +113,7 @@ Tarefas:
 
 A IA apresenta o plano e pede revisão:
 
-> "Plano pronto. Dá uma lida e me fala se quer ajustar algo antes de executar."
+> "Plano pronto. Antes de executar, copie o plano e salve localmente — assim você tem backup se o chat cair. Depois, dá uma lida e me fala se quer ajustar algo antes de executar."
 
 **Nunca passa pra Fase 3 sem sua aprovação.**
 
