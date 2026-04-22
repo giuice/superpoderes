@@ -1,5 +1,7 @@
 # Mentes em Ação — Aprendendo o Básico pra Lidar com IA
 
+**Arquivo PDF do handout:** [handout-mentes-em-acao.pdf](https://github.com/giuice/superpoderes/blob/main/handout-mentes-em-acao.pdf)
+
 ## Os 3 Superpoderes
 
 | # | Superpoder | O que faz | Exemplo Empório Princesa |
